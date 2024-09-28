@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Love";
+    src: url(Loveyou.otf) format("opentype");
+}
+
+input, label {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.containerone {
+    display: flex;
+    height: 100%;
+}
+
+.leftside {
+    width: 33%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: 125%;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftsideup {
+    height: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftsideupodin {
+    height: 20%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftsidebottom {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.photocreds {
+    color: white;
+    margin-bottom: 3%;
+}
+
+.odintext {
+   color: white;
+   font-family: "Love", "Times New Roman", Times, serif;
+   font-size: 8em;
+}
+
+.leftsidebottom {
+    height: 33%;
+}
+
+.rightside {
+    width: 67%;
+    background-color: rgb(80, 80, 80);
+}
+
+.rightsideup {
+    height: 35%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.textie {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.7em;
+}
+
+.formtextie {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+
+.textright {
+    margin: 0.3em;
+    padding-right: 30%;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.rightsidemid {
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.firstrow {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+}
+
+form {
+    margin-left: 1.7em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outsidesec {
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.insidesec {
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 0.8em;
+    margin-bottom: 2px;
+}
+
+.rightsidebot {
+    height: 35%;
+    background-color: rgb(230, 230, 230);
+}
+
+input {
+    height: 1.8em;
+    width: 20em;
+    border: 1px solid #596D48;
+    border-radius: 8px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.createacc {
+    margin: 1.7em;
+    font-size: 1em;
+    padding: 1em 3em;
+    border-radius: 6px;
+    border: 0px solid black;
+    background-color: #596D48;
+    color: white;
+}
+
+.haveacc {
+    margin-left: 1.7em;
+}
+
+a:link { 
+    text-decoration: none;
+    color: rgb(0, 73, 0);
+  } 
+  a:visited { 
+    text-decoration: none;
+    color: rgb(0, 73, 0); 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+.photocreds a:link, .photocreds a:visited {
+    color: white;
+}
